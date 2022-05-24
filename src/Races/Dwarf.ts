@@ -1,12 +1,11 @@
 import Race from './Race';
 
 export default class Dwarf extends Race {
-  private _maxLifePoints: number;
-  public static _instanceCounter: number;
+  // counter starts at 0, not just a numbet type attribute
+  private static _instanceCounter = 0;
 
-  constructor(name: string, dexterity: number) {
+  constructor(name: string, dexterity: number, private _maxLifePoints = 80) {
     super(name, dexterity);
-    this._maxLifePoints = 80;
 
     // everytime the class is instantiated
     // adds to counter
