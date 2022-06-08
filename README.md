@@ -20,10 +20,12 @@ E compile:
 ```
 
 <details>
-  <summary><h3>Princípios SOLID</h3></summary>
-* Single Responsibility Principle
-* Open Close Principle
-* Liskov Substitution Principle
-* Interface Segregation Principle
-* Dependency Inversion Principle
+ <summary><h3>Princípios SOLID</h3></summary>
+ <ul>
+  <li>Single Responsibility Principle</li>
+  <li>Open Close Principle</li>
+  <li>Liskov Substitution Principle</li>
+  <li>Interface Segregation Principle</li>
+  <li>Dependency Inversion Principle</li>
+ </ul>
 </details>
